@@ -6,6 +6,7 @@ import java.util.Enumeration;
 import java.util.Iterator;
 
 import modelo.cines.CinesRead;
+import modelo.cines.CinesUpdate;
 import negocio.beans.CineBean;
 
 
@@ -91,12 +92,15 @@ public class Cinesa {
 			return listaCines.get(i);
 		}	
 		else return null;
+		
+		
+		}	
+		
+	/*En este metodo creo un objeto de tipo CinesUpdate para utilizar la operacion updateCine
+	 * Cuando llamo a este método le paso el cine que quiero aztualizar */
+	public void updateCine(CineBean cine) {
+			CinesUpdate actualizar = new CinesUpdate();
+			actualizar.updateCine(cine);
 	}
-	
-	
-	
-	
-	
-	
 	
 }
