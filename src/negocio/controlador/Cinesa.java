@@ -8,14 +8,14 @@ import java.util.Iterator;
 import modelo.cines.CinesRead;
 import modelo.cines.CinesUpdate;
 import negocio.beans.CineBean;
-
+ 
 
 
 
 public class Cinesa {
 
 	private ArrayList<CineBean> listaCines;
-	
+	 
 	
 	
 	/**

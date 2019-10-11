@@ -1,4 +1,4 @@
-package view;
+package view; 
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,13 +24,13 @@ public class StartView {
 	}
 	
 	
-	
+	 
 	
 	
 	public void go() throws NumberFormatException, IOException {
 		
 		
-		 
+		  
 		int numero = 1000;
 		
 		while(numero!=0) {

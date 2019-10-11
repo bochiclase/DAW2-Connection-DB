@@ -22,7 +22,7 @@ public class ModificarCineView {
 		
 		
 		// leemos cada uno de los atributos del Cine
-		System.out.println("Nuevo Nombre?");
+		System.out.println("Nuevo Nombre?"); 
 		String cadena = br.readLine();
 		if(cadena.length()>0) {
 			

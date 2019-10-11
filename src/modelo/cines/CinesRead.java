@@ -11,7 +11,7 @@ import negocio.beans.CineBean;
 
 public class CinesRead {
 
-	
+	 
 	
 	public ArrayList<CineBean> getCines() {
 		

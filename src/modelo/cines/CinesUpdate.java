@@ -10,7 +10,7 @@ import negocio.beans.CineBean;
 public class CinesUpdate {
 
 	
-	
+	 
 	
 	public void updateCine(CineBean cine) {
 		Connection conexion = BDConect.getConexion(); 

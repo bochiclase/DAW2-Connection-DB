@@ -28,7 +28,7 @@ public class CinesCreate {
 		} catch(SQLException e) {
 			
 			e.printStackTrace();
-		}
+		} 
 			 
 		
 	}

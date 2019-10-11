@@ -10,7 +10,7 @@ public class BDConect {
 	private static Connection conexion = null;
 	
 	
-	
+	 
 	private BDConect() {
 		
 		String user ="root";

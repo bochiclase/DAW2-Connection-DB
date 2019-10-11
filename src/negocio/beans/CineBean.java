@@ -3,7 +3,7 @@ package negocio.beans;
 import java.util.ArrayList;
 
 public class CineBean {
-
+ 
 	private int idCine;
 	private String nombre;
 	private String responsable;
