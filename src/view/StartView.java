@@ -30,7 +30,7 @@ public class StartView {
 	public void go() throws NumberFormatException, IOException {
 		
 		
-		
+		 
 		int numero = 1000;
 		
 		while(numero!=0) {

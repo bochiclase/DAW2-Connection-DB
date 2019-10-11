@@ -24,7 +24,7 @@ public class CinesUpdate {
        					+ "WHERE idcines="+cine.getIdCine();
        	
        	
-		try {
+		try { 
 			stmt = conexion.prepareStatement(sql);
 	       	stmt.executeUpdate();
 	       	

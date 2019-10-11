@@ -27,7 +27,7 @@ public class ModificarCineView {
 		if(cadena.length()>0) {
 			
 			cine.setNombre(cadena);
-		}
+		} 
 		
 		// leemos cada uno de los atributos del Cine
 		System.out.println("Nuevo responsable?");

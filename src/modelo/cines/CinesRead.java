@@ -27,7 +27,7 @@ public class CinesRead {
 			stmt = conexion.prepareStatement("SELECT * FROM cines");
 	       	ResultSet rs = stmt.executeQuery();
 	       	while (rs.next()) {
-	       		
+	       		 
 	       		CineBean cine = new CineBean();
 	       		cine.setIdCine(rs.getInt("idcines"));
 	       		cine.setNombre(rs.getString("nombre"));

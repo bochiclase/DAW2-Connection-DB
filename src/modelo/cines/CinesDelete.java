@@ -24,7 +24,7 @@ public class CinesDelete {
 	} catch(SQLException e){
 		e.printStackTrace();
 	}
-	
+	 
 	}
 	
 }
