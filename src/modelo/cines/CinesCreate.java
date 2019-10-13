@@ -18,16 +18,17 @@ public class CinesCreate {
 		Connection conexion = BDConect.getConexion();
 		PreparedStatement stmt;
 		
-		String sentencia = "insert into cines values(" + cine.getIdCine() + ","+  cine.getNombre() + "," + cine.getResponsable()   + "," +  cine.getTelefono() +","+ cine.getDireccion()+ ")";
+		String sentencia = "insert into cines values(" + cine.getIdCine() + ",'"+  cine.getNombre() + "','" + cine.getResponsable()   + "','" +  cine.getTelefono() +"','"+ cine.getDireccion()+ "')";
 		
 		
 		try {
 			stmt = conexion.prepareStatement(sentencia);
 	       	stmt.executeUpdate();
-	       	
+	       
 		} catch(SQLException e) {
 			
 			e.printStackTrace();
+			
 		} 
 			 
 		

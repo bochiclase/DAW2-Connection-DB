@@ -16,6 +16,7 @@ public class ModificarCineView {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader (isr);
 		
+		
 		// presentamos los valores anteriores
 		System.out.println("Este cine tiene los siguiente valores");
 		System.out.println(cine);
@@ -59,5 +60,5 @@ public class ModificarCineView {
 		
 	
 	}
-	
+
 }

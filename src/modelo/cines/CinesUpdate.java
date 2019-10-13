@@ -21,7 +21,7 @@ public class CinesUpdate {
        					+ "direccion='"+cine.getDireccion()+"', "
        					+ "telefono='"+cine.getTelefono()+"', "
        					+ "responsable='"+cine.getResponsable()+"' "
-       					+ "WHERE idcines="+cine.getIdCine();
+       					+ "WHERE id="+cine.getIdCine();
        	
        	
 		try { 

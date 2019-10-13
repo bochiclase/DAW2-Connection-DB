@@ -29,7 +29,7 @@ public class CinesRead {
 	       	while (rs.next()) {
 	       		 
 	       		CineBean cine = new CineBean();
-	       		cine.setIdCine(rs.getInt("idcines"));
+	       		cine.setIdCine(rs.getInt("id"));
 	       		cine.setNombre(rs.getString("nombre"));
 	       		cine.setResponsable(rs.getString("responsable"));
 	       		cine.setTelefono(rs.getString("telefono"));

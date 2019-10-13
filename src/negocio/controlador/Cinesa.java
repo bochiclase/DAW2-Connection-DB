@@ -54,8 +54,13 @@ public class Cinesa {
 	 * Devuelve un iterador sobre los cines disponibles
 	 * @return Iterator sobre los cines
 	 */
+	
+	
+	/*He modificado el iterator para refrescar el array list*/
 	public Iterator<CineBean> getCines() {
-		
+		listaCines.clear();
+		CinesRead cinesData = new CinesRead();
+		listaCines = cinesData.getCines();
 		return listaCines.iterator();
 	}
 

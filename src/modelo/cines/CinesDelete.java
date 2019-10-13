@@ -13,16 +13,18 @@ import negocio.beans.CineBean;
 
 public class CinesDelete {
 	
-	public void deleteCine(CineBean cine) {
+	public void deleteCine(int id) {
 	Connection conexion= BDConect.getConexion();
 	PreparedStatement stmt;
-	String sentencia ="DELETE from cines where nombre = '" + cine.getNombre() + "'";
+	
+	String sentencia ="delete from cines where id  = " + id + ";";
 		
 	try {
 		stmt = conexion.prepareStatement(sentencia);
-		
+		stmt.executeUpdate();
 	} catch(SQLException e){
 		e.printStackTrace();
+		
 	}
 	 
 	}
